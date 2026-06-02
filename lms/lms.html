@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+</head>
+<body>
+    <button id="btn" onclick="clicar()">clique aqui</button>
+    <h1>teste html DOM</h1>
+    <div class="raiz"></div>
+</body>
+
+<script>
+    const raiz = document.querySelector('.raiz');
+
+    function clicar() {
+        raiz.innerHTML = 'clicou';
+    }
+    
+</script>
+
+</html>
